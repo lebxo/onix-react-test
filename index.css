@@ -12,6 +12,11 @@ html p, body p {
   font-size: 13px;
   font-weight: 800;
 }
+.wrapper header p{
+  font-size: 16px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
 .wrapper .head {
   display: flex;
   flex-direction: row;
@@ -119,7 +124,19 @@ html p, body p {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
+.wrapper footer ul{
+  margin-left: 1250px;
+  list-style: none;
+}
+.wrapper footer ul li{
+  padding: 10px;
+  font-size: 15px;
+}
+.wrapper footer ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
